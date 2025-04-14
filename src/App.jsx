@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/users';
+const API_URL = 'https://backenddemo-three.vercel.app/api/users';
 
 const App = () => {
   const [users, setUsers] = useState([]);
